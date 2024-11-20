@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>POLImedia - IPN</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Encabezado con navegación -->
+    <header class="header">
+        <div class="logo-container">
+            <img src="https://live.staticflickr.com/65535/54072830687_5fa1720fe1_o.png" alt="IPN Logo" alt="Logo IPN" class="logo">
+            <h1>POLImedia</h1>
+        </div>
+        
+        <!-- Menú de navegación principal -->
+        <nav class="nav-menu">
+            <a href="#" class="nav-link">Inicio</a>
+            <a href="#" class="nav-link">Oferta Educativa</a>
+            <a href="#" class="nav-link">Cómo Funciona</a>
+            <a href="#" class="nav-link">Contacto</a>
+            <a href="https://codepen.io/gestion-IPN/pen/VwoRZrQ" class="login-btn">Iniciar Sesión</a>
+        </nav>
+    </header>
+
+    <!-- Contenido principal -->
+    <main id="content">
+        <div class="hero-content">
+            <h1>POLImedia DEV - IPN</h1>
+            <p>La excelencia educativa del IPN ahora en formato virtual. 
+               Accede a educación de calidad desde cualquier lugar.</p>
+            <a href="https://codepen.io/gestion-IPN/pen/VwoRZrQ" class="btn">Comienza Ahora</a>
+        </div>
+    </main>
+
+    <!-- Sección de características con tarjetas giratorias -->
+    <section class="features">
+        <h2>¿Por qué elegir POLImedia?</h2>
+        <div class="features-grid">
+            <!-- Primera tarjeta giratoria -->
+            <div class="feature-card-container">
+                <div class="feature-card-inner">
+                    <!-- Parte frontal de la tarjeta -->
+                    <div class="feature-card-front">
+                        <div class="feature-icon">🎓</div>
+                        <h3>Excelencia Académica</h3>
+                        <p>Programas académicos de alta calidad</p>
+                    </div>
+                    <!-- Parte trasera de la tarjeta -->
+                    <div class="feature-card-back">
+                        <h4>Más Información</h4>
+                        <ul>
+                            <li>Programas acreditados</li>
+                            <li>Docentes certificados</li>
+                            <li>Contenido actualizado</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Segunda tarjeta giratoria -->
+            <div class="feature-card-container">
+                <div class="feature-card-inner">
+                    <div class="feature-card-front">
+                        <div class="feature-icon">💻</div>
+                        <h3>Tecnología Avanzada</h3>
+                        <p>Plataforma moderna y herramientas digitales</p>
+                    </div>
+                    <div class="feature-card-back">
+                        <h4>Características</h4>
+                        <ul>
+                            <li>Plataforma intuitiva</li>
+                            <li>Herramientas modernas</li>
+                            <li>Soporte técnico 24/7</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Tercera tarjeta giratoria -->
+            <div class="feature-card-container">
+                <div class="feature-card-inner">
+                    <div class="feature-card-front">
+                        <div class="feature-icon">⭐</div>
+                        <h3>Flexibilidad Total</h3>
+                        <p>Estudia a tu ritmo y desde cualquier lugar</p>
+                    </div>
+                    <div class="feature-card-back">
+                        <h4>Ventajas</h4>
+                        <ul>
+                            <li>Horarios flexibles</li>
+                            <li>Acceso multiplataforma</li>
+                            <li>Contenido disponible 24/7</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección de estadísticas -->
+    <section class="stats">
+        <div class="stats-grid">
+            <!-- Cada stat-item es un contador animado -->
+            <div class="stat-item">
+                <div class="stat-number" data-target="30000">0</div>
+                <div>Estudiantes Activos</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-number" data-target="500">0</div>
+                <div>Profesores</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-number" data-target="100">0</div>
+                <div>Cursos Disponibles</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-number" data-target="95">0</div>
+                <div>Satisfacción</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contenedor del video de fondo -->
+    <div class="video-bg-container">
+        <div id="yt-player"></div>
+        <div class="video-bg-overlay"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
